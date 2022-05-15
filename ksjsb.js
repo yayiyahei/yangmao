@@ -13,9 +13,6 @@ let res,
   index = 0,
   count = 0;
 
-
-
-
 //let curHours = new Date().getHours();
 class ksUser {
   constructor(cookie) {
@@ -226,13 +223,6 @@ class ksUser {
           '🎉' + this.name + '=>|查询宝箱状态失败：' + _0x15220b.error_msg
         );
   } */
-
-
-
-
-  
-
-
 
   //兑换
   async changeExchangeType(_0x1bd22f) {
@@ -903,7 +893,7 @@ function Env(t, e) {
           : this.isQuanX() && $notify(e, s, i, o(r)));
       let h = [
         '',
-        '==============\ud83d\udce3\u7cfb\u7edf\u901a\u77e5\ud83d\udce3==============',
+        '==============\u5feb\u624b\u6781\u901f\u7248\u901a\u77e5==============',
       ];
       h.push(e),
         s && h.push(s),
