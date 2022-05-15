@@ -1,5 +1,7 @@
-/*
-快手极速版，个人自用，请勿分享！
+// 快手极速版
+
+// 个人自用，请勿分享！
+
 const $ = new Env('快手极速版');
 let res,
   ksjsbCookie = process.env.ksjsbCookie || '',
