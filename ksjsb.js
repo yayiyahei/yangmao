@@ -221,7 +221,7 @@ class ksUser {
       : console.log(
           '🎉' + this.name + '=>|查询宝箱状态失败：' + _0x15220b.error_msg
         );
-  } */
+  }
 
 
 
