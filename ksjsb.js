@@ -1,8 +1,4 @@
-// 快手极速版
-
-// 个人自用，请勿分享！
-
-const $ = new Env('快手极速版');
+const $ = new Env('快手极速版低保');
 let res,
   ksjsbCookie = process.env.ksjsbCookie || '',
   Users = [],
@@ -12,6 +8,9 @@ let res,
   ksjsbNotify = process.env.ksjsbNotify || 1,
   index = 0,
   count = 0;
+
+
+
 
 //let curHours = new Date().getHours();
 class ksUser {
@@ -176,7 +175,7 @@ class ksUser {
     }
   }
   
-//开箱子 
+//开箱子
   async openBox(_0x412555) {
     let _0x513362 =
         'https://nebula.kuaishou.com/rest/n/nebula/box/explore?isOpen=' +
@@ -223,6 +222,13 @@ class ksUser {
           '🎉' + this.name + '=>|查询宝箱状态失败：' + _0x15220b.error_msg
         );
   } */
+
+
+
+
+  
+
+
 
   //兑换
   async changeExchangeType(_0x1bd22f) {
@@ -893,7 +899,7 @@ function Env(t, e) {
           : this.isQuanX() && $notify(e, s, i, o(r)));
       let h = [
         '',
-        '==============\u5feb\u624b\u6781\u901f\u7248\u901a\u77e5==============',
+        '==============\ud83d\udce3\u7cfb\u7edf\u901a\u77e5\ud83d\udce3==============',
       ];
       h.push(e),
         s && h.push(s),
